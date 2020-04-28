@@ -40,12 +40,11 @@ fn main() {
                 }
             }
         }
-        let mut i = 1;
-        for  mut i in i..vector.len(){
+
+        for i in 1..vector.len(){
            
         if vector[i] - vector[i - 1] == 2{
             print!("{}, {}, ", vector[i - 1].to_string().green(), vector[i].to_string().green());
-           i = i + 1;
            }
            else {
            print!("{}, ", vector[i - 1]);
