@@ -21,24 +21,20 @@ fn main() {
 
     for count in 2..number {
         let mut _done = true;
-       // if count % 2 != 0 {
             
             if _done {
                 let stop = ((count as f64).sqrt() + 1.0) as i64;
                     for i in 2..stop {
-                       // if i % 2 != 0 {
                             if count % i == 0 {
                                 _done = false;
                                 break;
                             }
-                       // }
                     }
                 }
                 if _done {
                    //print!("{} ", count);
                    vector.push(count);
                 }
-          //  }
         }
    
         for i in 1..vector.len(){
