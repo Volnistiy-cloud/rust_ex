@@ -36,6 +36,7 @@ fn main() {
                    vector.push(count);
                 }
         }
+<<<<<<< HEAD
    
         for i in 1..vector.len(){
            
@@ -43,6 +44,15 @@ fn main() {
         //    print!("{}, {}, ", vector[i - 1].to_string().green(), vector[i].to_string().green());
           //continue;
           // }
+=======
+
+        for i in 1..vector.len(){
+           
+        if vector[i] - vector[i - 1] == 2{
+            print!("{}, {}, ", vector[i - 1].to_string().green(), vector[i].to_string().green());
+           }
+           else {
+>>>>>>> bb31abb06cf2fd568b5d4857835bf8b4d9fee071
            print!("{}, ", vector[i - 1]);
        
        
