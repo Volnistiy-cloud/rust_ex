@@ -12,7 +12,6 @@ dependencies = [
 ]
 
 [[package]]
-<<<<<<< HEAD
 name = "base-x"
 version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -31,8 +30,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 
 [[package]]
-=======
->>>>>>> bb31abb06cf2fd568b5d4857835bf8b4d9fee071
 name = "colored"
 version = "1.9.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -44,15 +41,12 @@ dependencies = [
 ]
 
 [[package]]
-<<<<<<< HEAD
 name = "discard"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "212d0f5754cb6769937f4501cc0e67f4f4483c8d2c3e1e922ee9edbe4ab4c7c0"
 
 [[package]]
-=======
->>>>>>> bb31abb06cf2fd568b5d4857835bf8b4d9fee071
 name = "hermit-abi"
 version = "0.1.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -62,15 +56,12 @@ dependencies = [
 ]
 
 [[package]]
-<<<<<<< HEAD
 name = "itoa"
 version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b8b7a7c0c47db5545ed3fef7468ee7bb5b74691498139e4b3f6a20685dc6dd8e"
 
 [[package]]
-=======
->>>>>>> bb31abb06cf2fd568b5d4857835bf8b4d9fee071
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -83,7 +74,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "99e85c08494b21a9054e7fe1374a732aeadaff3980b6990b94bfd3a70f690005"
 
 [[package]]
-<<<<<<< HEAD
 name = "log"
 version = "0.4.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -108,13 +98,10 @@ dependencies = [
 ]
 
 [[package]]
-=======
->>>>>>> bb31abb06cf2fd568b5d4857835bf8b4d9fee071
 name = "project_one"
 version = "0.1.0"
 dependencies = [
  "colored",
-<<<<<<< HEAD
  "time",
 ]
 
@@ -362,11 +349,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "daf76fe7d25ac79748a37538b7daeed1c7a6867c92d3245c12c6222e4a20d639"
 
 [[package]]
-=======
-]
-
-[[package]]
->>>>>>> bb31abb06cf2fd568b5d4857835bf8b4d9fee071
 name = "winapi"
 version = "0.3.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
