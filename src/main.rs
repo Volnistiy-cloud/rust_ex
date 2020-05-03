@@ -19,7 +19,7 @@ fn main() {
         
     };
 
-    for count in 2..number {
+    for count in 1..number {
         let mut _done = true;
             
             if _done {
@@ -36,27 +36,26 @@ fn main() {
                    vector.push(count);
                 }
         }
-<<<<<<< HEAD
    
-        for i in 1..vector.len(){
-           
-        //if vector[i] - vector[i - 1] == 2{
-        //    print!("{}, {}, ", vector[i - 1].to_string().green(), vector[i].to_string().green());
-          //continue;
-          // }
-=======
+        
+       
+       for i in 1 .. vector.len() {
 
-        for i in 1..vector.len(){
-           
-        if vector[i] - vector[i - 1] == 2{
-            print!("{}, {}, ", vector[i - 1].to_string().green(), vector[i].to_string().green());
-           }
-           else {
->>>>>>> bb31abb06cf2fd568b5d4857835bf8b4d9fee071
+        if i > 1 {
+             if vector[i - 1] - vector[i - 2] == 2  {
+             print!("{}, ",vector[i - 1].to_string(). green());
+             continue;
+                   } 
+                }
+
+        if vector[i] - vector[i - 1] != 2  {
            print!("{}, ", vector[i - 1]);
-       
-       
         }
-        //print!("{}, ", vector[i - 1]);
+        else {
+            print!("{}, ", vector[i - 1].to_string().green());
+        }
+        
+    }
 break;} 
-}     
+}
+     
