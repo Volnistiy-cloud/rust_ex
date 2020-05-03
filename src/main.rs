@@ -37,8 +37,6 @@ fn main() {
                 }
         }
    
-        
-       
        for i in 1 .. vector.len() {
 
         if i > 1 {
